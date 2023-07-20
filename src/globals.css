@@ -1,0 +1,34 @@
+html,
+body,
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+:root {
+  --backgroundColor: #0058AB;
+  --ellipseColor: #FBD914;
+  --primaryColor: #0058AB;
+  --primaryTextColor: #FBD914;
+
+  --Questrial: Questrial, sans-serif;
+
+  --headlineBig: clamp(5rem, 9.5vw, 9rem);
+  --headlineMediumBig: clamp(4rem, 8vw, 13rem);
+  --headlineMedium: clamp(1rem, 2vw, 4rem);
+  --headlineSmall: clamp(0.8rem, 1.2vw, 1.5rem);
+  --spacing: clamp(0.9rem, 0.75vw, 1.3rem);
+  
+}
+
+body {
+    background-color: var(--backgroundColor);
+  }
